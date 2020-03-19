@@ -1,0 +1,55 @@
+2020-03-19 21:36:22,909 [main] INFO utilities.TestBase - ***** Test case execution of Class com.testPages.Petstorestarted******
+2020-03-19 21:36:22,928 [main] INFO utilities.TestBase - validateAddPet test started
+2020-03-19 21:36:25,744 [main] INFO utilities.TestBase - Message: Pet details received from server is : {
+    "id": 477911871,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+2020-03-19 21:36:25,756 [main] INFO utilities.TestBase - validateGetPet test started
+2020-03-19 21:36:26,649 [main] INFO utilities.TestBase - Message: Pet details received from server is : {
+    "id": 1,
+    "category": {
+        "id": 1,
+        "name": "<string>"
+    },
+    "name": "<string>",
+    "photoUrls": [
+        "<string>",
+        "<string>"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "<string>"
+        },
+        {
+            "id": 1,
+            "name": "<string>"
+        }
+    ],
+    "status": "available"
+}
+2020-03-19 21:36:27,075 [main] INFO utilities.TestBase - Message: Status code is  :available
+2020-03-19 21:36:27,078 [main] INFO utilities.TestBase - validateDeletePet test started
+2020-03-19 21:36:27,986 [main] INFO utilities.TestBase - Message: Pet details received from server is : 
+2020-03-19 21:36:27,987 [main] INFO utilities.TestBase - Message: Status code is  :200
+2020-03-19 21:36:27,988 [main] INFO utilities.TestBase - Message: Pet deleted successfully..
+2020-03-19 21:36:27,996 [main] INFO utilities.TestBase - validateUpdatePet test started
+2020-03-19 21:36:29,106 [main] INFO utilities.TestBase - Message: Pet details received from server is : 
+2020-03-19 21:36:29,108 [main] INFO utilities.TestBase - Message: Status code is  :200
+2020-03-19 21:36:29,109 [main] INFO utilities.TestBase - Message: Pet updated successfully..
+2020-03-19 21:36:29,118 [main] INFO utilities.TestBase - ***************All test cases of Class com.testPages.Petstore executed******
+2020-03-19 21:36:30,461 [main] INFO utilities.TestBase - *********** All test classes run. Extent report generated and put in : C:\Users\Mmubeen\git\RestAPIAutomation\extentReports .Quitting browser**********

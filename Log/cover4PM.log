@@ -1,0 +1,55 @@
+2020-03-19 21:36:22,909 - utilities.TestBase -INFO - ***** Test case execution of Class com.testPages.Petstorestarted******
+2020-03-19 21:36:22,928 - utilities.TestBase -INFO - validateAddPet test started
+2020-03-19 21:36:25,744 - utilities.TestBase -INFO - Message: Pet details received from server is : {
+    "id": 477911871,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+2020-03-19 21:36:25,756 - utilities.TestBase -INFO - validateGetPet test started
+2020-03-19 21:36:26,649 - utilities.TestBase -INFO - Message: Pet details received from server is : {
+    "id": 1,
+    "category": {
+        "id": 1,
+        "name": "<string>"
+    },
+    "name": "<string>",
+    "photoUrls": [
+        "<string>",
+        "<string>"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "<string>"
+        },
+        {
+            "id": 1,
+            "name": "<string>"
+        }
+    ],
+    "status": "available"
+}
+2020-03-19 21:36:27,075 - utilities.TestBase -INFO - Message: Status code is  :available
+2020-03-19 21:36:27,078 - utilities.TestBase -INFO - validateDeletePet test started
+2020-03-19 21:36:27,986 - utilities.TestBase -INFO - Message: Pet details received from server is : 
+2020-03-19 21:36:27,987 - utilities.TestBase -INFO - Message: Status code is  :200
+2020-03-19 21:36:27,988 - utilities.TestBase -INFO - Message: Pet deleted successfully..
+2020-03-19 21:36:27,996 - utilities.TestBase -INFO - validateUpdatePet test started
+2020-03-19 21:36:29,106 - utilities.TestBase -INFO - Message: Pet details received from server is : 
+2020-03-19 21:36:29,108 - utilities.TestBase -INFO - Message: Status code is  :200
+2020-03-19 21:36:29,109 - utilities.TestBase -INFO - Message: Pet updated successfully..
+2020-03-19 21:36:29,118 - utilities.TestBase -INFO - ***************All test cases of Class com.testPages.Petstore executed******
+2020-03-19 21:36:30,461 - utilities.TestBase -INFO - *********** All test classes run. Extent report generated and put in : C:\Users\Mmubeen\git\RestAPIAutomation\extentReports .Quitting browser**********
